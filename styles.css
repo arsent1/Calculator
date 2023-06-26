@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(#372a4a, #3B4565);
+}
+
+.page-title {
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.output-screen {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #191F30;
+    width: 400px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.buttons-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #262D44;
+    width: 400px;
+    height: 325px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.small-buttons-section {
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+    grid-gap: 15px;
+    position: absolute;
+    margin-bottom: 75px; /*Fix this*/
+    
+}
+
+.small-button {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.large-buttons-section {
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    position: relative;
+    margin-top: 200px;  /*Fix this*/
+}
+
+.large-button {
+    width: 140px;
+    height: 35px;
+    background-color: #637298;
+}
