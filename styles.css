@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    background: radial-gradient(#372a4a, #3B4565);
+    background: #3B4664;
 }
 
 .page-title {
@@ -24,13 +24,13 @@ body {
     color: white;
     font-weight: bold;
     background-color: #191F30;
-    width: 400px;
+    width: 380px;
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: right;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 8px;
     padding-right: 20px;
 }
 
@@ -40,9 +40,9 @@ body {
     align-items: center;
     margin: 0 auto;
     background-color: #262D44;
-    width: 400px;
-    height: 325px;
-    border-radius: 10px;
+    width: 380px;
+    height: 320px;
+    border-radius: 8px;
     margin-top: 10px;
 }
 
@@ -50,10 +50,12 @@ body {
     width: 400px;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    justify-content: space-around;
-    grid-gap: 15px;
+    justify-content: center;
+    grid-gap: 20px;
+    column-gap: 20px;
     position: absolute;
-    margin-bottom: 75px; /*Fix this*/
+    align-self: flex-start;
+    margin-top: 20px;
     
 }
 
@@ -61,19 +63,44 @@ body {
     width: 70px;
     height: 40px;
     border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    
 }
 
 .large-buttons-section {
     width: 400px;
     display: grid;
     grid-template-columns: repeat(2, auto);
-    justify-content: space-around;
+    column-gap: 20px;
+    justify-content: center;
     position: relative;
-    margin-top: 200px;  /*Fix this*/
+    align-self: flex-end;
+    margin-bottom: 20px;
+    
 }
 
 .large-button {
-    width: 140px;
-    height: 35px;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
     background-color: #637298;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#delete {
+    background-color: #637198;
+    color: white;
+}
+
+#equal {
+    background-color: #D13F31;
+    color: white;
+}
+
+#reset {
+    background-color: #637198; 
+    color: white;
 }
